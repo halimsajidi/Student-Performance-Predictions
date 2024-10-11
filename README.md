@@ -15,7 +15,7 @@ Proyek ini bertujuan membantu meningkatkan performa akademik siswa serta mengura
 
 ### Persiapan
 
-Sumber data: ....
+Sumber data: [dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
 
 Setup environment:
 ```bash
@@ -90,7 +90,11 @@ Berdasarkan grafik dia atas, Penerima beasiswa cenderung berstatus graduate dan 
 Dapat dilihat siswa yang mengambil curricular units lebih banyak cenderung berstatus graduate dibandingkan yang tidak. Terutama siswa yang mengambil lebih dari 20 unit.
 
 ## Business Dashboard
-Dashboard ini memberikan visualisasi untuk memantau prediksi dropout mahasiswa dan keberhasilan akademik mereka. Melalui dashboard ini, pihak institusi dapat melihat tren dropout dan mengidentifikasi kelompok mahasiswa yang membutuhkan perhatian lebih. [dashboard](https://lookerstudio.google.com/reporting/6ba29a8a-bb58-49e6-98fb-e224b4b2ece7)
+Dashboard ini memberikan visualisasi untuk memantau prediksi dropout mahasiswa dan keberhasilan akademik mereka. Melalui dashboard ini, pihak institusi dapat melihat tren dropout dan mengidentifikasi kelompok mahasiswa yang membutuhkan perhatian lebih. 
+
+![image](https://github.com/user-attachments/assets/e516b1b1-adb6-44a2-ac3a-dca628f345d4)
+
+[dashboard](https://lookerstudio.google.com/reporting/6ba29a8a-bb58-49e6-98fb-e224b4b2ece7)
 
 ## Menjalankan Sistem Machine Learning
 ### How to Run
