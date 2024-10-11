@@ -5,7 +5,7 @@ from joblib import load
 import os
 
 # URL untuk file model di GitHub
-model_url = "https://github.com/halimsajidi/Student-Performance-Predictions/blob/main/dashboard/XGBoost_model.joblib"
+model_url = "https://raw.githubusercontent.com/halimsajidi/Student-Performance-Predictions/main/dashboard/XGBoost_model.joblib"
 model_filename = "XGBoost_model.joblib"
 
 # Fungsi untuk mengunduh model dari GitHub
