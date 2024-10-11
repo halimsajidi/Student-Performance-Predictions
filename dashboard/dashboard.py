@@ -3,7 +3,7 @@ import pandas as pd
 from joblib import load
 
 # Memuat model dari file
-loaded_model = load('XGBoost_model.joblib')
+loaded_model = load('https://github.com/halimsajidi/Student-Performance-Predictions/blob/main/dashboard/XGBoost_model.joblib')
 
 # Judul aplikasi
 st.title("Student Performance Prediction App")
