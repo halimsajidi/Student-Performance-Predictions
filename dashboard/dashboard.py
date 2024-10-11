@@ -1,9 +1,25 @@
 import streamlit as st
 import pandas as pd
+import requests
 from joblib import load
+import os
+
+# URL untuk file model di GitHub
+model_url = "https://github.com/halimsajidi/Student-Performance-Predictions/blob/main/dashboard/XGBoost_model.joblib"
+model_filename = "XGBoost_model.joblib"
+
+# Fungsi untuk mengunduh model dari GitHub
+def download_model(url, filename):
+    if not os.path.isfile(filename):
+        response = requests.get(url)
+        with open(filename, 'wb') as file:
+            file.write(response.content)
+
+# Unduh model jika belum ada
+download_model(model_url, model_filename)
 
 # Memuat model dari file
-loaded_model = load('https://github.com/halimsajidi/Student-Performance-Predictions/blob/main/dashboard/XGBoost_model.joblib')
+loaded_model = load(model_filename)
 
 # Judul aplikasi
 st.title("Student Performance Prediction App")
