@@ -7,11 +7,11 @@ Proyek ini bertujuan membantu meningkatkan performa akademik siswa serta mengura
  Bagaimana memprediksi mahasiswa yang berpotensi putus kuliah sejak semester pertama berdasarkan data awal?
 
 ### Cakupan Proyek
-- Pengumpulan Data: Mengumpulkan data dari berbagai sumber yang berisi informasi terkait mahasiswa, termasuk jalur akademik, demografi, sosial ekonomi, dan performa akademik.
-- Data Understanding: Melakukan eksplorasi data untuk memahami pola, tren, dan hubungan antar fitur dalam dataset, serta mengidentifikasi variabel-variabel yang berpotensi mempengaruhi keberhasilan akademik dan risiko dropout.
+- **Pengumpulan Data:** Mengumpulkan data dari berbagai sumber yang berisi informasi terkait mahasiswa, termasuk jalur akademik, demografi, sosial ekonomi, dan performa akademik.
+- **Data Understanding:** Melakukan eksplorasi data untuk memahami pola, tren, dan hubungan antar fitur dalam dataset, serta mengidentifikasi variabel-variabel yang berpotensi mempengaruhi keberhasilan akademik dan risiko dropout.
 - Data Preparation: Melakukan pembersihan data, penanganan missing values, transformasi fitur, dan encoding untuk memastikan data siap digunakan dalam pengembangan model machine learning.
-- Pengembangan Model: Membangun model machine learning menggunakan teknik yang sesuai untuk memprediksi risiko dropout dan keberhasilan akademik mahasiswa, serta melakukan tuning hyperparameter untuk meningkatkan performa model.
-- Evaluasi: Mengukur kinerja model yang dikembangkan menggunakan metrik evaluasi yang relevan (seperti akurasi, presisi, dan recall), dan melakukan analisis lebih lanjut untuk memastikan model memenuhi kebutuhan bisnis dan akurasi yang diharapkan.
+- **Pengembangan Model:** Membangun model machine learning menggunakan teknik yang sesuai untuk memprediksi risiko dropout dan keberhasilan akademik mahasiswa, serta melakukan tuning hyperparameter untuk meningkatkan performa model.
+- **Evaluasi:** Mengukur kinerja model yang dikembangkan menggunakan metrik evaluasi yang relevan (seperti akurasi, presisi, dan recall), dan melakukan analisis lebih lanjut untuk memastikan model memenuhi kebutuhan bisnis dan akurasi yang diharapkan.
 
 ### Persiapan
 
@@ -41,14 +41,32 @@ from joblib import dump, load
 ```
 
 ## Business Dashboard
-Dashboard ini memberikan visualisasi untuk memantau prediksi dropout mahasiswa dan keberhasilan akademik mereka. Melalui dashboard ini, pihak institusi dapat melihat tren dropout dan mengidentifikasi kelompok mahasiswa yang membutuhkan perhatian lebih.
+Dashboard ini memberikan visualisasi untuk memantau prediksi dropout mahasiswa dan keberhasilan akademik mereka. Melalui dashboard ini, pihak institusi dapat melihat tren dropout dan mengidentifikasi kelompok mahasiswa yang membutuhkan perhatian lebih. [dashboard](https://lookerstudio.google.com/reporting/6ba29a8a-bb58-49e6-98fb-e224b4b2ece7)
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
-
+### How to Run
+1. Clone the repository or download the source code.
+```bash
+https://github.com/halimsajidi/Student-Performance-Predictions.git
 ```
-
+2. Setup Environment
+```bash
+conda create --name main-ds python
+conda activate main-ds
 ```
+3. Install the required Python packages
+```bash
+cd Dashboard
+```
+```bash
+pip install -r requirements.txt
+```
+4. Run the Streamlit app using:
+```bash
+streamlit run app.py
+```
+4. Buka tautan yang disediakan oleh Streamlit untuk mengakses dasbor di browser web Anda.
+5. uploade test data untuk mencoba aplikasi machine learning.
 
 ## Conclusion
 Proyek ini berhasil mengembangkan sistem prediksi untuk mengidentifikasi mahasiswa dengan risiko tinggi dropout dan yang akan sukses secara akademik pada akhir semester. Sistem ini dapat membantu institusi pendidikan dalam merencanakan intervensi dini dan menawarkan dukungan kepada mahasiswa yang membutuhkan. Model machine learning yang dikembangkan mampu memberikan hasil prediksi yang cukup akurat untuk diaplikasikan pada skala yang lebih besar.
