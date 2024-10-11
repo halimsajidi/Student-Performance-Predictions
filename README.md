@@ -121,6 +121,8 @@ streamlit run app.py
 4. Buka tautan yang disediakan oleh Streamlit untuk mengakses dasbor di browser web Anda.
 5. uploade test data untuk mencoba aplikasi machine learning.
 
+[StreamlitApp](https://student-performance-predictions-halimsajidi.streamlit.app/)
+
 ## Conclusion
 Berdasarkan analisis data dan insight yang telah diperoleh, beberapa faktor kunci yang dapat memprediksi potensi mahasiswa untuk putus kuliah (dropout) sejak semester pertama adalah sebagai berikut:
 - **Jenis Kelamin:** Siswa laki-laki memiliki risiko putus kuliah yang lebih tinggi dibandingkan perempuan. Ini terlihat dari tingkat dropout laki-laki sebesar 45.1% sementara perempuan hanya 25.1%. Sebaliknya, tingkat kelulusan perempuan lebih tinggi (57.9%) dibandingkan laki-laki (35.2%).
