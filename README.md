@@ -109,7 +109,7 @@ conda activate main-ds
 ```
 3. Install the required Python packages
 ```bash
-cd Dashboard
+cd dashboard
 ```
 ```bash
 pip install -r requirements.txt
